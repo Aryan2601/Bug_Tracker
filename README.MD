@@ -49,7 +49,7 @@
 ####   :pushpin: 'allauth.socialaccount.providers.google',
 ####   :pushpin: 'login',
 #### :pushpin:SITE_ID=1
-#### :pushpin:LOGIN_REDIRECT_URL='http://127.0.0.1:8000/polls/'
+#### :pushpin:LOGIN_REDIRECT_URL='http://127.0.0.1:8000/upload/'
 #### :pushpin: After adding all this you when you runserver you will get a socialapp sections
 #### :pushpin: Now add that provider as google and all the details required name the url as localhost:8000
 #### :pushpin: Now get client id and secret id from https://console.developers.google.com/ .Here i will not be mentioning my client id and 
