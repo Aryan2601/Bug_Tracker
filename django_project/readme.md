@@ -21,7 +21,7 @@
 ## Features  :smile: :smile:
 
 
-###:pushpin: You can Upload and make a Folder With Giving name of the your folder
+### :pushpin: You can Upload and make a Folder With Giving name of the your folder
 ![Screenshot from 2020-03-04 23-38-33](https://user-images.githubusercontent.com/56226813/75911021-e2a67b00-5e74-11ea-89b1-14891d36e8b4.png)
 
 
