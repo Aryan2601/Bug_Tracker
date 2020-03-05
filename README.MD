@@ -40,9 +40,9 @@
 ## TO add a Oauth service provider do the following ##
 
 
-#### :pushpin:Djando framework offers various sign in options google,facebook,github,...etc.
-#### :pushpin:In this project i will be signing in through google so i will tell about it.
-#### :pushpin:add some things to installed apps in settings of the project
+#### :pushpin:Django framework offers various sign in options like google , facebook,github and other 30 applications.
+#### :pushpin:For This project i used login through google
+#### :pushpin:add some things in settings.py in INSTALLED_APPS Section :
 ####  :pushpin: 'allauth',
 ####  :pushpin:  'allauth.account',
 ####  :pushpin:  'allauth.socialaccount',
@@ -50,7 +50,7 @@
 ####   :pushpin: 'login',
 #### :pushpin:SITE_ID=1
 #### :pushpin:LOGIN_REDIRECT_URL='http://127.0.0.1:8000/upload/'
-#### :pushpin: After adding all this you when you runserver you will get a socialapp sections
+#### :pushpin: After adding all these you can use command python3 manage.py runserver.
 #### :pushpin: Now add that provider as google and all the details required name the url as localhost:8000
 #### :pushpin: Now get client id and secret id from https://console.developers.google.com/ .Here i will not be mentioning my client id and 
 #### :pushpin:secret id as it might be used in some undesirable manner if needed ask me for it personally.
