@@ -41,8 +41,8 @@
 
 
 #### :pushpin:Djando framework offers various sign in options google,facebook,github,...etc.
-#### :pushpin:In this project i will be signing in through google so i will tell about it.
-#### :pushpin:add some things to installed apps in settings of the project
+#### :pushpin:In this project as i used signin through google
+#### :pushpin:so for that we need to add some things in our settings.py
 ####  :pushpin: 'allauth',
 ####  :pushpin:  'allauth.account',
 ####  :pushpin:  'allauth.socialaccount',
@@ -51,7 +51,7 @@
 #### :pushpin:SITE_ID=1
 #### :pushpin:LOGIN_REDIRECT_URL='http://127.0.0.1:8000/upload/'
 #### :pushpin: After adding all this you when you runserver you will get a socialapp sections
-#### :pushpin: Now add that provider as google and all the details required name the url as localhost:8000
+#### :pushpin: Now add that provider as google and all the details required name the url loaalhost:8000
 #### :pushpin: Now get client id and secret id from https://console.developers.google.com/ .Here i will not be mentioning my client id and 
 #### :pushpin:secret id as it might be used in some undesirable manner if needed ask me for it personally.
 #### :pushpin: Add  client id and secret id .
