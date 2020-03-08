@@ -43,14 +43,15 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.google',
-    'login',
+    
     'crispy_forms',
 
     'mysite.core',
 ]
 
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 SITE_ID=1
-LOGIN_REDIRECT_URL = "http://127.0.0.1:8000/"
+LOGIN_REDIRECT_URL = '/'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
@@ -70,7 +71,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(BASE_DIR, 'mysite/templates')
+            os.path.join(BASE_DIR, 'templates')
         ],
         'APP_DIRS': True,
         'OPTIONS': {
