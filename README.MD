@@ -1,4 +1,4 @@
-# Bug Tracker  :confused:
+# Bug Tracker  :confused: :confused:
 
 ## What is Bug Tracker :question: :question:
 
