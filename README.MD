@@ -5,7 +5,7 @@
 
 #### :arrow_right: This is Not a actual bug tracker as by name this is a person work loading and he will be uploading his work after loggin in using google.
 
-## Steps to run Server :thumbsup: :thumbsup:
+## Steps to run Server :thumbsup: :thumbsup: :thumbsup:
 
 ### :pushpin:First open terminal then go to django_project folder.
 
